@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "halcyon_map",
+  "version": "${version}",
+  "name": "Halcyon Map",
+  "description": "Добавляет в меню паузы кнопку, которая открывает на весь экран карту сервера Halcyon с игроками в реальном времени. Адрес карты, масштаб и частоту кадров можно изменить в настройках (через Mod Menu или config/halcyon_map.json).",
+  "authors": [
+    "MayzaGS"
+  ],
+  "license": "MIT",
+  "icon": "assets/halcyon_map/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.mayzags.halcyonmap.HalcyonMapClient"
+    ],
+    "modmenu": [
+      "dev.mayzags.halcyonmap.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "halcyon_map.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

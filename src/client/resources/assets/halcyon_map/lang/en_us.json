@@ -1,0 +1,19 @@
+{
+  "halcyon_map.button.map": "Server Map",
+  "halcyon_map.screen.init": "Preparing the browser (first launch downloads Chromium): %s",
+  "halcyon_map.screen.waiting": "Loading the map...",
+  "halcyon_map.screen.failed": "The browser failed to start. See the game log for details.",
+  "modmenu.descriptionTranslation.halcyon_map": "Adds a pause menu button that opens the Halcyon server map fullscreen, with players shown in real time. The map address, zoom and frame rate can be changed in the settings. Requires MCEF Modern.",
+  "halcyon_map.screen.timeout": "The map did not load within 20 seconds.",
+  "halcyon_map.report.copy": "Copy",
+  "halcyon_map.report.rest": " mod logs for the bug report",
+  "halcyon_map.report.copied": "Copied!",
+  "halcyon_map.report.copy_failed": "Could not copy",
+  "halcyon_map.config.title": "Halcyon Map Settings",
+  "halcyon_map.config.url": "Map address",
+  "halcyon_map.config.reset": "Reset",
+  "halcyon_map.config.zoom": "Page zoom: %s%%",
+  "halcyon_map.config.fps": "Frame rate: %s",
+  "halcyon_map.config.save": "Save",
+  "halcyon_map.config.cancel": "Cancel"
+}

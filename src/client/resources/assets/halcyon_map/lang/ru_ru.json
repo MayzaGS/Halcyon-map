@@ -1,0 +1,19 @@
+{
+  "halcyon_map.button.map": "Карта сервера",
+  "halcyon_map.screen.init": "Подготовка браузера (при первом запуске качается Chromium): %s",
+  "halcyon_map.screen.waiting": "Загрузка карты...",
+  "halcyon_map.screen.failed": "Не удалось запустить браузер. Подробности в логе игры.",
+  "modmenu.descriptionTranslation.halcyon_map": "Добавляет в меню паузы кнопку, которая открывает на весь экран карту сервера Halcyon с игроками в реальном времени. Адрес карты, масштаб и частоту кадров можно изменить в настройках. Требуется MCEF Modern.",
+  "halcyon_map.screen.timeout": "Карта не загрузилась за 20 секунд.",
+  "halcyon_map.report.copy": "Копировать",
+  "halcyon_map.report.rest": " логи мода для отчета об ошибке",
+  "halcyon_map.report.copied": "Скопировано!",
+  "halcyon_map.report.copy_failed": "Не удалось скопировать",
+  "halcyon_map.config.title": "Настройки Halcyon Map",
+  "halcyon_map.config.url": "Адрес карты",
+  "halcyon_map.config.reset": "Сбросить",
+  "halcyon_map.config.zoom": "Масштаб страницы: %s%%",
+  "halcyon_map.config.fps": "Частота кадров: %s",
+  "halcyon_map.config.save": "Сохранить",
+  "halcyon_map.config.cancel": "Отмена"
+}
